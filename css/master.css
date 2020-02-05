@@ -1,1 +1,22 @@
 /* Copyright (c) MochaChain Developers */
+
+/*
+Color Scheme
+Creme: #bfa45a
+Dark: #611b1b
+*/
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  
+}
+
+.jumbotron {
+  width: 100%;
+  height: 100%;
+  background-color: 
+}
