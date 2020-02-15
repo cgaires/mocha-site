@@ -1,25 +1,32 @@
 /* This source code is copyrighted by-- wait, no it's not! Feel free to use any public code from our GitHub! */
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Subrayada&display=swap');
+
 /* Color Scheme */
 /* Brown: #56402B */
+/* Deep Blue: #05082d */
 
-body {
+html, body {
+  height: 100%;
   margin: 0px;
   padding: 0px;
 }
 
 /* General Classes */
 
-#splash-screen {
-  height: 100%;
-  width: 100%;
-  background-color: #56402B;
-  color: white;
-  position: relative;
+h1 {
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-size: 80px;
 }
 
-#ss-inner {
-  padding-top: 15%;
+#wrapper {
+  min-height: 100%; 
+  background-color: #05082d;
+  color: white;
+}
+
+.fadeIn {
+  display: none;
 }
 
 .center {
@@ -27,12 +34,29 @@ body {
   text-align: center;
 }
 
-.absolute {
-  position: absolute; 
+.big-padding {
+  padding-top: 20%;
 }
 
-.fadeIn {
-  display: none;
+#scroll-down {
+  padding-top: 10%;
+  position: relative;
+  font-size: 60px;
+}
+
+#main {
+
+}
+
+#main-inner {
+  padding: 60px 60px 60px 60px;
+  display: inline;
+}
+
+.right-shoot {
+  float: right;
+  display: inline;
+  padding: 60px 60px 60px 60px;
 }
 
 /* jQuery Classes */

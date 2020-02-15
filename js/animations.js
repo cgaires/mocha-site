@@ -10,6 +10,18 @@ $(document).ready(function() {
      }, 2500);
      setTimeout(function() {
             $(".fadeIn").fadeIn("slow");
-            $("#splash-screen").animate({"background-color": "#56402B"});
+
+            // Inneficient but arguably the best option
+
+            $("#scroll-down").animate({"padding-top": "+=50px"}, 1500);
+            $("#scroll-down").animate({"padding-top": "-=50px"}, 1500);
+            $("#scroll-down").animate({"padding-top": "+=50px"}, 1500);
+            $("#scroll-down").animate({"padding-top": "-=50px"}, 1500);
+            $("#scroll-down").animate({"padding-top": "+=50px"}, 1500);
+            $("#scroll-down").animate({"padding-top": "-=50px"}, 1500);
+            $("#scroll-down").animate({"padding-top": "+=50px"}, 1500);
+            $("#scroll-down").animate({"padding-top": "-=50px"}, 1500);
+            $("#scroll-down").animate({"padding-top": "+=50px"}, 1500);
+            $("#scroll-down").animate({"padding-top": "-=50px"}, 1500);
      }, 3000);
 });

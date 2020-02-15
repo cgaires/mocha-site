@@ -7,3 +7,4 @@ function httpGet(url) // Fetch current coin info with api
     xmlHttp.send(null);
     return xmlHttp.responseText;
 }
+
