@@ -3,7 +3,7 @@
 $(document).ready(function() {
     console.log("Initialized jQuery functions");
     
-     // setTimeout(function() {
-        $('.jq-loader').fadeOut('slow');
-    // }, 5000);
+     setTimeout(function() {
+        $('.jq-loader').hide();
+     }, 5000);
 });
