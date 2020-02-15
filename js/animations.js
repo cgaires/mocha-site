@@ -5,9 +5,5 @@ $(document).ready(function() {
     
      setTimeout(function() {
         $("#jq-loader").addClass("hide");
-         setTimeout(function() {
-            $(".hide").fadeIn("slow");
-            $(".fadeIn").fadeIn("slow");
-         }, 200);
      }, 5000);
 });
