@@ -5,7 +5,7 @@ $(document).ready(function() {
     
      setTimeout(function() {
         $("#jq-loader").fadeOut("fast");
-        $(".hide").removeClass("hide");
+        $(".hide").removeClass("hide").addClass("show");
         console.log("Fadeout process completed");
      }, 2500);
      setTimeout(function() {
