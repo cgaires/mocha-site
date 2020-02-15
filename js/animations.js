@@ -6,9 +6,9 @@ $(document).ready(function() {
      setTimeout(function() {
         $("#jq-loader").fadeOut("slow");
         $(".hide").removeClass("hide");
-        setTimeout(function() {
-            $(".fadeIn").fadeIn("slow");
-        }, 1000);
-        console.log("Fading process completed");
+        console.log("Fadeout process completed");
      }, 2500);
+     setTimeout(function() {
+            $(".fadeIn").fadeIn("slow");
+     }, 1000);
 });
