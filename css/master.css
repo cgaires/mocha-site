@@ -30,6 +30,10 @@ body {
   position: absolute; 
 }
 
+.fadeIn {
+  display: none;
+}
+
 /* jQuery Classes */
 
 .hide { /* Primarily going to be used for animations */
