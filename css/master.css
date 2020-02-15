@@ -8,7 +8,7 @@ body {
 /* jQuery Classes */
 
 .hide { /* Primarily going to be used for animations */
-  display: hidden;
+  display: none;
 }
 
 .show {
