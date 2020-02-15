@@ -1,8 +1,29 @@
 /* This source code is copyrighted by-- wait, no it's not! Feel free to use any public code from our GitHub! */
 
+/* Color Scheme */
+/* Brown: #56402B */
+
 body {
   margin: 0px;
   padding: 0px;
+}
+
+/* General Classes */
+
+#splash-screen {
+  height: 100%;
+  width: 100%;
+  background-color: #56402B;
+  color: white;
+}
+
+#ss-inner {
+  padding-top: 35%;
+}
+
+.center {
+  margin: 0px auto;
+  text-align: center;
 }
 
 /* jQuery Classes */
