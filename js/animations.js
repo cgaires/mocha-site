@@ -3,5 +3,7 @@
 $( document ).ready(function() {
     console.log("Initialized jQuery functions");
     
-    $('.jq-loader').delay(5000).fadeOut('slow');
+     setTimeout(function() {
+        $('.jq-loader').fadeOut('slow');
+    }, 5000);
 });
