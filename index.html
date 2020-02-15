@@ -31,11 +31,14 @@
       <div class="center">
         <div id="ss-inner">
           <h1 class="fadeIn">Fadein Test</h1>
-          <h3 class="fadeIn">A simpler, decentralized currency</h3>
+          <h3 class="fadeIn">We are at block #<span id="blocknum"></span</h3>
         </div>
       </div>
     </div>
     <script type="text/javascript" src="js/functions.js"></script>
+    <script type="text/javascript">
+      httpGet("http://blocks.mocha.network/api/getblockcount");
+    </script>
     <script type="text/javascript" src="js/animations.js"></script>
   </body>
 </html>
