@@ -10,5 +10,6 @@ $(document).ready(function() {
      }, 2500);
      setTimeout(function() {
             $(".fadeIn").fadeIn("slow");
+            $("#splash-screen").animate({"background-color": "#56402B"});
      }, 3000);
 });
