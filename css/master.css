@@ -26,6 +26,10 @@ body {
   text-align: center;
 }
 
+.absolute {
+  position: absolute; 
+}
+
 /* jQuery Classes */
 
 .hide { /* Primarily going to be used for animations */
