@@ -8,7 +8,7 @@ $(document).ready(function() {
         $(".hide").removeClass("hide");
         setTimeout(function() {
             $(".fadeIn").fadeIn("slow");
-        }, 250);
+        }, 1000);
         console.log("Fading process completed");
      }, 2500);
 });
