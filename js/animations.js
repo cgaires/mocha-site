@@ -10,5 +10,5 @@ $(document).ready(function() {
      }, 2500);
      setTimeout(function() {
             $(".fadeIn").fadeIn("slow");
-     }, 500);
+     }, 3000);
 });
