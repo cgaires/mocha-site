@@ -4,7 +4,7 @@ $(document).ready(function() {
     console.log("Initialized jQuery functions");
     
      setTimeout(function() {
-        $("#jq-loader").fadeOut("slow");
+        $("#jq-loader").fadeOut("fast");
         $(".hide").removeClass("hide");
         console.log("Fadeout process completed");
      }, 2500);
