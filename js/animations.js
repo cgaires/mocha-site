@@ -4,6 +4,6 @@ $(document).ready(function() {
     console.log("Initialized jQuery functions");
     
      setTimeout(function() {
-        $('#jq-loader').hide();
+        $('#jq-loader').addClass("hide");
      }, 5000);
 });
