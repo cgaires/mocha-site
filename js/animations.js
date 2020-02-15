@@ -5,5 +5,6 @@ $(document).ready(function() {
     
      setTimeout(function() {
         $("#jq-loader").fadeOut("slow");
+        console.log("Fading process completed");
      }, 5000);
 });
