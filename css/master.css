@@ -71,6 +71,22 @@ h1 {
   display: block;
 }
 
+/* Responsive Queries */
+
+@media only screen and (max-width: 768px) {
+  .nixmobile {
+    display: none;
+  }
+
+  #main {
+    width: 100%;
+  }
+
+  .main-inner {
+    width: 100%;
+  }
+}
+
 /* Loader */
 
 .sk-cube-grid {
