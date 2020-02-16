@@ -44,19 +44,21 @@ h1 {
   font-size: 60px;
 }
 
+.loader-padding {
+  padding-top: 15%;
+}
+
 #main {
-
+  width: 60%;
 }
 
-#main-inner {
+.main-inner {
   padding: 60px 60px 60px 60px;
-  display: inline;
+  width: 60%;
 }
 
-.right-shoot {
-  float: right;
-  display: inline;
-  padding: 60px 60px 60px 60px;
+.jumbo {
+  font-size: 75px;
 }
 
 /* jQuery Classes */

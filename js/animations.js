@@ -9,6 +9,8 @@ $(document).ready(function() {
         console.log("Fadeout process completed");
      }, 2500);
      setTimeout(function() {
+            $("#jq-loader").remove();
+            $(".loader-padding").remove();
             $(".fadeIn").fadeIn("slow");
 
             // Inneficient but arguably the best option
@@ -24,4 +26,9 @@ $(document).ready(function() {
             $("#scroll-down").animate({"padding-top": "+=50px"}, 1500);
             $("#scroll-down").animate({"padding-top": "-=50px"}, 1500);
      }, 3000);
+     
+     if ($("#main").is(":visible")) {
+         console.log("#main div is visible");
+         $("#main").animate({padding: "200px 200px 200px 200px"});
+     }
 });
