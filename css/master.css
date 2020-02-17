@@ -55,6 +55,15 @@ h1 {
 .main-inner {
   padding: 60px 60px 60px 60px;
   width: 60%;
+  float: left;
+  display: inline-block;
+}
+
+.main-flank {
+  float: right;
+  padding: 60px 60px 60px 60px;
+  width: 35%;
+  display: inline-block;
 }
 
 .jumbo {
