@@ -38,6 +38,15 @@ h1 {
   padding-top: 200px;
 }
 
+.section-blue {
+  background-color: #05082d;
+  color: white;
+}
+
+.color-padding {
+  padding: 60px 60px 60px 60px;
+}
+
 .big-padding {
   padding-top: 3%;
 }
